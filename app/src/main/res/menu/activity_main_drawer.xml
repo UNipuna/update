@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+        <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_phone_address_book"-->
+            <!--android:icon="@drawable/ic_contact_phone_black_24dp"-->
+            <!--android:title="Phone Address Book" />-->
+    <item
+        android:id="@+id/nav_atm"
+        android:icon="@drawable/ic_atm"
+        android:title="ATM Locator" />
+    <item
+        android:id="@+id/nav_branch_address_book"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="Branch Address Book" />
+
+    <item
+        android:id="@+id/nav_nearest_atm"
+        android:icon="@drawable/ic_location"
+        android:title="Your Nearest Branch/ATM " />
+
+    <item android:title="User Controls">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_in"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Sign In" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help &amp; Support" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_input_black_24dp"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+</menu>
